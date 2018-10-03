@@ -11,7 +11,7 @@ import java.util.List;
 
 public class MoviesClient {
 
-    private static final String COUNT_ENDPOINT = "/count/{field}/{searchTerm}";
+
     private Logger logger = LoggerFactory.getLogger(MoviesClient.class);
     private static ParameterizedTypeReference<List<MovieInfo>> movieListType = new ParameterizedTypeReference<List<MovieInfo>>() {};
     private RestOperations restOperations;

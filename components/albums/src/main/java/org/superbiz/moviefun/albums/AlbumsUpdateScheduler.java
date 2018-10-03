@@ -57,4 +57,6 @@ public class AlbumsUpdateScheduler {
 
         return updatedRows > 0;
     }
+
+
 }
